@@ -1,0 +1,16 @@
+# Configuration for OB639 Final Project: Latent Cognition Multiagent Simulation
+
+simulation:
+  num_agents: 20
+  max_steps: 100
+  dt: 1.0
+  world_size: [100.0, 100.0]
+
+agent:
+  max_speed: 2.0
+  perception_radius: 10.0
+  initial_energy: 100.0
+  energy_cost_per_step: 0.1
+  memory_size: 10
+  initial_beliefs: {}
+
