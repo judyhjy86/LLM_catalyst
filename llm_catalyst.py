@@ -5,7 +5,7 @@ import google.generativeai as genai
 import pandas as pd
 
 # Initialize Gemini Client 
-genai.configure(api_key= "AIzaSyBay-9YxvtEa4tmptrAQtNRtMlRFZmHE-k")
+genai.configure(api_key= "INSERT API KEY")
 
 # --- 1. DEFINING THE SCHEMAS (Latent Cognition) ---
 
